@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mycustomview.MainActivity" >
+<!-- if you can not add customer view or render error,please clean the project after add customerview -->
+    <johnyen.lib.MarqueeHorizontalScrollView
+        android:id="@+id/marqueeHorizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </johnyen.lib.MarqueeHorizontalScrollView>
+
+</LinearLayout>
